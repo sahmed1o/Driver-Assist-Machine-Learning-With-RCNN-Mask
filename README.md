@@ -59,7 +59,7 @@ https://github.com/matterport/Mask_RCNN/releases
 <hr>
 <h6>  *Not Required since repo already includes it, but kept as reference: </h6> 
 
-Clone the cocoapi repo and extract into Mask_RCNN-master folder:
+Clone the cocoapi repo and extract into Driver-Assist-Machine-Learning-With-RCNN-Mask-master folder:
 https://github.com/philferriere/cocoapi
 
 
