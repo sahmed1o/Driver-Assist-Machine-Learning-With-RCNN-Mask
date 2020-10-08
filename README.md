@@ -31,10 +31,10 @@
  
 
 <li>  Install and download Download cuDNN v7.6.5 for CUDA 9.0 on Windows:  </li>
-
- > you will need to sign up for a developer nvidia account
- > https://developer.nvidia.com/rdp/cudnn-archive 
-
+```
+ you will need to sign up for a developer nvidia account
+ https://developer.nvidia.com/rdp/cudnn-archive 
+```
 
 
 <li> Copy the following files from the "cudnn-9.0-windows10-x64-v7.6.5.32.zip" rar file into the CUDA Toolkit directory.</li>
@@ -45,9 +45,10 @@
 
 
  <li>  Copy requirements.txt from the root directory in the "RequirementsFile" folder and place it in "D:\Python3\Scripts" and install it: </li>
- 
-> pip install tkintertable
-> pip install -r requirements.txt 
+```
+ pip install tkintertable
+ pip install -r requirements.txt
+```
 
 
 
