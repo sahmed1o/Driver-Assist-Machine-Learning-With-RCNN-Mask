@@ -79,15 +79,15 @@
 > py -3.6 setup.py build_ext install
  
 
-
-<li> If you are having issues running the demo.py, then delete the .egg file in <strong>"D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg"</strong>.
-It will be rebuilt when your run the applications. </li>
-
 <li> Replace the video source file in the "VideoSourceFile" folder and change the code in line 113 with the name of your own footage to apply the masking to pre-captured footage.  </li>
 
 > Line 113:  stream = cv2.VideoCapture("VideoSourceFile/Freewaytest.mp4")
 
 </ul>
+
+
+If you are having issues running the demo.py, then delete the .egg file in <strong>"D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg"</strong>.
+It will be rebuilt when your run the applications.
 
 Run the application:
 <h6> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </h6> 
