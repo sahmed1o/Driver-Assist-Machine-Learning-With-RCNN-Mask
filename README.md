@@ -2,11 +2,11 @@
 
 ## What is Mask R-CNN:
 
--R-CNN stands for "Regions with CNN features", CNN stands for "Convolutional Neural Network"
--R-CNN grabs parts of an image (or region) as a bounding box, and computes each region for CNN features,
-it then classifies each region to determine what it is through ROI align, testing pixel by pixel to form the mask, 
-R-CNN then takes the output from the ROI align and helps generate the bounding boxes and classifies the target to determine what it is
--mask R-CNN provides pixel level segmentation to mask over cars
+<ul>
+ 	<li> R-CNN stands for "Regions with CNN features", CNN stands for "Convolutional Neural Network" </li>
+  <li> R-CNN grabs parts of an image (or region) as a bounding box, and computes each region for CNN features, it then classifies each region to determine what it is through ROI align, testing pixel by pixel to form the mask, R-CNN then takes the output from the ROI align and helps generate the bounding boxes and classifies the target to determine what it is </li>
+<li> mask R-CNN provides pixel level segmentation to mask over cars </li>
+</ul>
 
 In this case road obstacles ahead are being masked.
 
@@ -14,8 +14,11 @@ In this case road obstacles ahead are being masked.
 
 ## Installation and Setup:
 
--When installing or running python programs:
-*Either "py / py -3.6 / python / python3", it varies on what you have installed and setup
+<ul>
+ 	<li> When installing or running python programs: </li>
+  <h6> *Either "py / py -3.6 / python / python3", it varies on what you have installed and setup </h6>
+ </ul>
+
 
 Download Python 3.6:
 https://www.python.org/downloads/release/python-365/
