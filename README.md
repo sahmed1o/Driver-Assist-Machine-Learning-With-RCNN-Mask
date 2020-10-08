@@ -30,7 +30,7 @@
 > https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Windows&target_arch=x86_64 
  
 
-<li>  Install and download Download cuDNN v7.6.5 for CUDA 9.0 on Windows:  </li>
+<li>  Install and download Download <strong>cuDNN v7.6.5 for CUDA 9.0</strong> on Windows:  </li>
 ```python
  you will need to sign up for a developer nvidia account
  https://developer.nvidia.com/rdp/cudnn-archive 
@@ -44,7 +44,7 @@
  
 
 
- <li>  Copy requirements.txt from the root directory in the "RequirementsFile" folder and place it in "D:\Python3\Scripts" and install it: </li>
+ <li>  Copy <strong>requirements.txt</strong> from the root directory in the "RequirementsFile" folder and place it in <strong>"D:\Python3\Scripts"</strong> and install it: </li>
  
  > pip install tkintertable
  
@@ -53,13 +53,13 @@
 
 
 
- <li>  Change directory to "Driver-Assist-Machine-Learning-With-RCNN-Mask-master" folder, and install the dependencies:  </li>
+ <li>  Change directory to <strong>"Driver-Assist-Machine-Learning-With-RCNN-Mask-master"</strong> folder, and install the dependencies:  </li>
  
 > py -3.6 setup.py install
 
 
 
- <li> Download the weights (mask_rcnn_coco.h5) from the releases page, and move it to the "Driver-Assist-Machine-Learning-RCNN-Mask-master\mrcnn" folder: </li>
+ <li> Download the weight <strong>(mask_rcnn_coco.h5)</strong> from the releases page, and move it to the <strong>"Driver-Assist-Machine-Learning-RCNN-Mask-master\mrcnn"</strong> folder: </li>
  
 > https://github.com/matterport/Mask_RCNN/releases 
  
@@ -67,22 +67,27 @@
 <hr>
 <h6>  *Not Required since repo already includes it, but kept as reference: </h6> 
 
-Clone the cocoapi repo and extract into Driver-Assist-Machine-Learning-With-RCNN-Mask-master folder:
-https://github.com/philferriere/cocoapi
+<li> Clone the cocoapi repo and extract into Driver-Assist-Machine-Learning-With-RCNN-Mask-master folder: </li> 
+
+> https://github.com/philferriere/cocoapi
 
 
 <hr>
 
- <li> cd into the extracted cocoapi folder and change to PythonAPI and install, path is "D:\Python3\Driver-Assist-Machine-Learning-With-RCNN-Mask-master\cocoapi-master\PythonAPI": </li>
-py -3.6 setup.py build_ext install
+ <li> cd into the extracted cocoapi folder and change to PythonAPI and install, path is <strong>"D:\Python3\Driver-Assist-Machine-Learning-With-RCNN-Mask-master\cocoapi-master\PythonAPI"</strong>: </li>
+
+> py -3.6 setup.py build_ext install
  
+
+
+<li> If you are having issues running the demo.py, then delete the .egg file in <strong>"D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg"</strong>.
+It will be rebuilt when your run the applications. </li>
+
+<li> Replace the video source file in the "VideoSourceFile" folder and change the code in line 113 with the name of your own footage to apply the masking to pre-captured footage.  </li>
+
+> Line 113:  stream = cv2.VideoCapture("VideoSourceFile/Freewaytest.mp4")
+
 </ul>
-
-If you are having issues running the demo.py, then delete the .egg file in "D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg".
-It will be rebuilt when your run the applications.
-
-Replace the video source file in the "VideoSourceFile" folder and change the code in line 113 with the name of your own footage to apply the masking to pre-captured footage.
-Line 113:  stream = cv2.VideoCapture("VideoSourceFile/Freewaytest.mp4")
 
 Run the application:
 <h6> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </h6> 
