@@ -31,10 +31,10 @@
  
 
 <li>  Install and download Download cuDNN v7.6.5 for CUDA 9.0 on Windows:  </li>
-'''
+```python
  you will need to sign up for a developer nvidia account
  https://developer.nvidia.com/rdp/cudnn-archive 
-'''
+```
 
 
 <li> Copy the following files from the "cudnn-9.0-windows10-x64-v7.6.5.32.zip" rar file into the CUDA Toolkit directory.</li>
