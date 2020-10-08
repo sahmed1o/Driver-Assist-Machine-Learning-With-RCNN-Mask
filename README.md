@@ -128,7 +128,7 @@ Copy the provided link, and paste in browser if it doesn't open on its own.
 
 <strong> COCO API: </strong> 
 <ul>
- 	<li> Created by github user philferriere 	</li>
+ 	<li> Cloned by github user philferriere 	</li>
  	<li> Source: https://github.com/philferriere/cocoapi 	</li>
 </ul>
 
