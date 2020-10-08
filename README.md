@@ -57,17 +57,18 @@ https://github.com/matterport/Mask_RCNN/releases
 </li>
 
 <hr>
-*Not Required since repo already includes it, but kept as reference:
+<h6>  *Not Required since repo already includes it, but kept as reference: </h6> 
 
 Clone the cocoapi repo and extract into Mask_RCNN-master folder:
 https://github.com/philferriere/cocoapi
 
-</ul>
 
 <hr>
-
+<li> 
 cd into the extracted cocoapi folder and change to PythonAPI and install, path is "D:\Python3\Driver-Assist-Machine-Learning-With-RCNN-Mask-master\cocoapi-master\PythonAPI":
 py -3.6 setup.py build_ext install
+</li> 
+</ul>
 
 If you are having issues running the demo.py, then delete the .egg file in "D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg".
 It will be rebuilt when your run the applications.
@@ -76,10 +77,10 @@ Replace the video source file in the "VideoSourceFile" folder and change the cod
 Line 113:  stream = cv2.VideoCapture("VideoSourceFile/Freewaytest.mp4")
 
 Run the application:
-*For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box:
+<h6> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </h6> 
 py -3.6 DAML_RCNN_Mask.py
 
-*For real-time capture its the following below, bare in mind this is resource intensive:
+<h6>  *For real-time capture its the following below, bare in mind this is resource intensive: </h6> 
 py -3.6 DAML_RCNN_Mask_RealTime.py
 
 If you have any other issues check the following link for other solutions:
@@ -89,20 +90,20 @@ https://github.com/tensorflow/tensorflow/issues/36111
 
 ## Getting started with the Jupyter Notebook file (if you don't have it installed):
 
-General Install through pip:
+<strong> General Install through pip: </strong> 
 >  pip install jupyterlab 
  
-If conda:
+<strong> If conda: </strong> 
 > conda install -c conda-forge notebook
 
-Guide for installing notebook:
+<strong> Guide for installing notebook: </strong> 
 https://jupyter.org/install
 
 <hr>
 
 ## Opening project files jupyter notebook:
 
-cmd from D:/python3/scripts
+<strong> cmd from D:/python3/scripts </strong> 
 > jupyter notebook
 
 Copy the provided link, and paste in browser if it doesn't open on its own.
