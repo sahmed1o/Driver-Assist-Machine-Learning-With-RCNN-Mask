@@ -111,7 +111,7 @@ https://jupyter.org/install
 
 ## Opening project files jupyter notebook:
 
-<strong> cmd from D:/python3/scripts </strong> 
+<strong> cmd from "D:/python3/scripts", and run the following command to open jupyter notebook: </strong> 
 > jupyter notebook
 
 Copy the provided link, and paste in browser if it doesn't open on its own.
