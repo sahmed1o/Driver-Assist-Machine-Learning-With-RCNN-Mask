@@ -21,14 +21,17 @@
 <ul>
  
 <li> Download Python 3.6:  </li>
+
 > https://www.python.org/downloads/release/python-365/ 
  	
   
 <li> Install and download cuda: </li>
+
 > https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Windows&target_arch=x86_64 
  
 
 <li>  Install and download Download cuDNN v7.6.5 for CUDA 9.0 on Windows:  </li>
+
  > you will need to sign up for a developer nvidia account
  > https://developer.nvidia.com/rdp/cudnn-archive 
 
@@ -42,17 +45,20 @@
 
 
  <li>  Copy requirements.txt from the root directory in the "RequirementsFile" folder and place it in "D:\Python3\Scripts" and install it: </li>
+ 
 > pip install tkintertable
 > pip install -r requirements.txt 
 
 
 
  <li>  Change directory to "Driver-Assist-Machine-Learning-With-RCNN-Mask-master" folder, and install the dependencies:  </li>
+ 
 > py -3.6 setup.py install
 
 
 
  <li> Download the weights (mask_rcnn_coco.h5) from the releases page, and move it to the "Driver-Assist-Machine-Learning-RCNN-Mask-master\mrcnn" folder: </li>
+ 
 > https://github.com/matterport/Mask_RCNN/releases 
  
 
