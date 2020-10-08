@@ -19,42 +19,42 @@
   <h6> *Either "py / py -3.6 / python / python3", it varies on what you have installed and setup </h6>
   
 <ul>
-<li> 
-Download Python 3.6:
-https://www.python.org/downloads/release/python-365/ </li>
- 	
- <li> 
-Install and download cuda:
-https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Windows&target_arch=x86_64 </li>
  
-<li> 
-Install and download Download cuDNN v7.6.5 for CUDA 9.0 on Windows: 
+<li> Download Python 3.6:  </li>
+https://www.python.org/downloads/release/python-365/ 
+ 	
+  
+<li> Install and download cuda: </li>
+https://developer.nvidia.com/cuda-10.1-download-archive-base?target_os=Windows&target_arch=x86_64 
+ 
+
+<li>  Install and download Download cuDNN v7.6.5 for CUDA 9.0 on Windows:  </li>
 -you will need to sign up for a developer nvidia account
 https://developer.nvidia.com/rdp/cudnn-archive 
-</li>
 
-<li> 
-Copy the following files from the "cudnn-9.0-windows10-x64-v7.6.5.32.zip" rar file into the CUDA Toolkit directory.
-Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin.
-Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include.
-Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64. 
- </li>
 
- <li> 
-Copy requirements.txt from the root directory in the "RequirementsFile" folder and place it in "D:\Python3\Scripts" and install it:
+
+<li> Copy the following files from the "cudnn-9.0-windows10-x64-v7.6.5.32.zip" rar file into the CUDA Toolkit directory.</li>
+<li> Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin.</li>
+<li> Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include.</li>
+<li> Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64. </li> 
+ 
+
+
+ <li>  Copy requirements.txt from the root directory in the "RequirementsFile" folder and place it in "D:\Python3\Scripts" and install it: </li>
 pip install tkintertable
 pip install -r requirements.txt 
-</li>
 
- <li> 
-Change directory to "Driver-Assist-Machine-Learning-With-RCNN-Mask-master" folder, and install the dependencies:
+
+
+ <li>  Change directory to "Driver-Assist-Machine-Learning-With-RCNN-Mask-master" folder, and install the dependencies:  </li>
 py -3.6 setup.py install
- </li>
 
-<li> 
-Download the weights (mask_rcnn_coco.h5) from the releases page, and move it to the "Driver-Assist-Machine-Learning-RCNN-Mask-master\mrcnn" folder:
+
+
+ <li> Download the weights (mask_rcnn_coco.h5) from the releases page, and move it to the "Driver-Assist-Machine-Learning-RCNN-Mask-master\mrcnn" folder: </li>
 https://github.com/matterport/Mask_RCNN/releases 
-</li>
+ 
 
 <hr>
 <h6>  *Not Required since repo already includes it, but kept as reference: </h6> 
@@ -64,10 +64,10 @@ https://github.com/philferriere/cocoapi
 
 
 <hr>
-<li> 
-cd into the extracted cocoapi folder and change to PythonAPI and install, path is "D:\Python3\Driver-Assist-Machine-Learning-With-RCNN-Mask-master\cocoapi-master\PythonAPI":
+
+ <li> cd into the extracted cocoapi folder and change to PythonAPI and install, path is "D:\Python3\Driver-Assist-Machine-Learning-With-RCNN-Mask-master\cocoapi-master\PythonAPI": </li>
 py -3.6 setup.py build_ext install
-</li> 
+ 
 </ul>
 
 If you are having issues running the demo.py, then delete the .egg file in "D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg".
