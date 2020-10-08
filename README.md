@@ -11,6 +11,7 @@ R-CNN then takes the output from the ROI align and helps generate the bounding b
 In this case road obstacles ahead are being masked.
 
 <hr>
+
 ## Installation and Setup:
 
 -When installing or running python programs:
@@ -69,7 +70,9 @@ If you have any other issues check the following link for other solutions:
 https://github.com/tensorflow/tensorflow/issues/36111
 
 <hr>
+
 ## Getting started with the Jupyter Notebook file (if you don't have it installed):
+
 pip install jupyterlab
 
 If conda:
@@ -81,12 +84,14 @@ https://jupyter.org/install
 <hr>
 
 ## Opening project files jupyter notebook:
+
 cmd from D:/python3/scripts
 > jupyter notebook
 
 Copy the provided link, and paste in browser if it doesn't open on its own.
 
 <hr>
+
 ## Source:
 
 https://github.com/matterport/Mask_RCNN
