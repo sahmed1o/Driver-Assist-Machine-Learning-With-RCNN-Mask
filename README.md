@@ -14,11 +14,10 @@ In this case road obstacles ahead are being masked.
 
 ## Installation and Setup:
 
-<ul>
- 	<li> When installing or running python programs: </li>
-  <h6> *Either "py / py -3.6 / python / python3", it varies on what you have installed and setup </h6>
- </ul>
+<strong> When installing or running python programs: </strong>
 
+  <h6> *Either "py / py -3.6 / python / python3", it varies on what you have installed and setup </h6>
+  
 
 Download Python 3.6:
 https://www.python.org/downloads/release/python-365/
