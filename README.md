@@ -37,18 +37,19 @@
 ```
 
 
-<li> Copy the following files from the "cudnn-9.0-windows10-x64-v7.6.5.32.zip" rar file into the CUDA Toolkit directory.</li>
-<li> Copy <installpath>\cuda\bin\cudnn64_7.dll to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin.</li>
-<li> Copy <installpath>\cuda\ include\cudnn.h to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include.</li>
-<li> Copy <installpath>\cuda\lib\x64\cudnn.lib to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64. </li> 
+<li> Copy the following files from the <strong> "cudnn-9.0-windows10-x64-v7.6.5.32.zip" </strong> rar file into the <strong>CUDA Toolkit directory. </strong></li>
+<li> Copy <strong> <installpath>\cuda\bin\cudnn64_7.dll </strong> to <strong> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin. </strong></li>
+<li> Copy <strong> <installpath>\cuda\ include\cudnn.h</strong>  to <strong> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include. </strong></li>
+<li> Copy <strong> <installpath>\cuda\lib\x64\cudnn.lib </strong> to <strong> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64. </strong></li> 
  
 
 
  <li>  Copy requirements.txt from the root directory in the "RequirementsFile" folder and place it in "D:\Python3\Scripts" and install it: </li>
-```
- pip install tkintertable
- pip install -r requirements.txt
-```
+ 
+ > pip install tkintertable
+ 
+ > pip install -r requirements.txt
+
 
 
 
