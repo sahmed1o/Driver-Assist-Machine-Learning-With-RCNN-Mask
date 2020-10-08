@@ -94,16 +94,17 @@ It will be rebuilt when your run the applications.
 
 <strong> Run the application: </strong>
 
-<strong> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </strong> 
+<strong> *For pre-captured footage use the following below, this will create an output.mp4 with the masking and bounding box: </strong> 
 
 > py -3.6 DAML_RCNN_Mask.py
 
-<strong> *For real-time capture its the following below, bare in mind this is resource intensive: </strong> 
+<strong> *For real-time capture use the following below, bare in mind this is resource intensive: </strong> 
 
 > py -3.6 DAML_RCNN_Mask_RealTime.py
 
-If you have any other issues check the following link for other solutions:
-https://github.com/tensorflow/tensorflow/issues/36111
+<strong> If you have any other issues check the following link for other solutions: </strong>
+
+> https://github.com/tensorflow/tensorflow/issues/36111
 
 <hr>
 
