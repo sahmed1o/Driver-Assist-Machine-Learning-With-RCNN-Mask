@@ -85,11 +85,15 @@
 
 </ul>
 
+<hr>
+
+## Running the Application
 
 If you are having issues running the demo.py, then delete the .egg file in <strong>"D:\Python3\lib\site-packages\mask_rcnn-2.1-py3.6.egg"</strong>.
 It will be rebuilt when your run the applications.
 
 Run the application:
+
 <strong> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </strong> 
 
 > py -3.6 DAML_RCNN_Mask.py
