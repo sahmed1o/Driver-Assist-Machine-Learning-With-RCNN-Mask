@@ -108,7 +108,7 @@ It will be rebuilt when your run the applications.
 
 <hr>
 
-## Getting started with the Jupyter Notebook file (if you don't have it installed):
+## Getting Started with the Jupyter Notebook File (if you don't have it installed):
 
 <strong> General Install through pip: </strong> 
 >  pip install jupyterlab 
@@ -121,7 +121,7 @@ https://jupyter.org/install
 
 <hr>
 
-## Opening project files jupyter notebook:
+## Opening Project Files with Jupyter Notebook:
 
 <strong> cmd from "D:/python3/scripts", and run the following command to open jupyter notebook: </strong> 
 > jupyter notebook
