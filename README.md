@@ -120,5 +120,17 @@ Copy the provided link, and paste in browser if it doesn't open on its own.
 
 ## Source:
 
-https://github.com/matterport/Mask_RCNN
-https://github.com/philferriere/cocoapi
+Mask R-CNN for Object Detection and Segmentation:
+<ul>
+ 	<li> Created by Matterport, Inc 	</li>
+ 	<li> Source: https://github.com/matterport/Mask_RCNN 	</li>
+</ul>
+
+COCO API:
+<ul>
+ 	<li> Created by github user philferriere 	</li>
+ 	<li> Source: https://github.com/philferriere/cocoapi 	</li>
+</ul>
+
+
+
