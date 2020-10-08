@@ -120,13 +120,13 @@ Copy the provided link, and paste in browser if it doesn't open on its own.
 
 ## Source:
 
-Mask R-CNN for Object Detection and Segmentation:
+<strong> Mask R-CNN for Object Detection and Segmentation: </strong> 
 <ul>
  	<li> Created by Matterport, Inc 	</li>
  	<li> Source: https://github.com/matterport/Mask_RCNN 	</li>
 </ul>
 
-COCO API:
+<strong> COCO API: </strong> 
 <ul>
  	<li> Created by github user philferriere 	</li>
  	<li> Source: https://github.com/philferriere/cocoapi 	</li>
