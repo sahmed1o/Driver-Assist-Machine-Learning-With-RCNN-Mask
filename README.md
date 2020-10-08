@@ -92,7 +92,9 @@ https://github.com/tensorflow/tensorflow/issues/36111
 <ul>
 <li>  pip install jupyterlab </li>
 <li> If conda: </li>
+ 
 > conda install -c conda-forge notebook
+
 <li> Guide for installing notebook: </li>
 https://jupyter.org/install
 
