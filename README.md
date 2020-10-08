@@ -8,7 +8,7 @@
 <li> mask R-CNN provides pixel level segmentation to mask over cars </li>
 </ul>
 
-In this case road obstacles ahead are being masked.
+<strong> In this case road obstacles ahead are being masked. </strong>
 
 <hr>
 
