@@ -95,12 +95,17 @@ pip install jupyterlab
 /li>
 <li>
 If conda:
-conda install -c conda-forge notebook
 /li>
+ 
+ 
+conda install -c conda-forge notebook
+ 
 <li>
 Guide for installing notebook:
-https://jupyter.org/install
  </li>
+ 
+ 
+https://jupyter.org/install
 
 <hr>
 
