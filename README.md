@@ -32,7 +32,7 @@
 
 <li>  Install and download Download <strong>cuDNN v7.6.5 for CUDA 9.0</strong> on Windows:  </li>
  
- <strong> you will need to sign up for a developer nvidia account </strong> 
+ <h6> you will need to sign up for a developer nvidia account </h6> 
  
  > https://developer.nvidia.com/rdp/cudnn-archive 
 
