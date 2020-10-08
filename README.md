@@ -89,13 +89,18 @@ https://github.com/tensorflow/tensorflow/issues/36111
 
 ## Getting started with the Jupyter Notebook file (if you don't have it installed):
 
+<ul>
+<li> 
 pip install jupyterlab
-
+/li>
+<li>
 If conda:
 conda install -c conda-forge notebook
-
+/li>
+<li>
 Guide for installing notebook:
 https://jupyter.org/install
+ </li>
 
 <hr>
 
