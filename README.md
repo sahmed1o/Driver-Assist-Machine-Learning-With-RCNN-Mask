@@ -79,7 +79,7 @@
 > py -3.6 setup.py build_ext install
  
 
-<li> Replace the video source file in the "VideoSourceFile" folder and change the code in line 113 with the name of your own footage to apply the masking to pre-captured footage.  </li>
+<li> Replace the video source file in the <strong> "VideoSourceFile" </strong> folder and change the code in line 113 with the name of your own footage to apply the masking to pre-captured footage.  </li>
 
 > Line 113:  stream = cv2.VideoCapture("VideoSourceFile/Freewaytest.mp4")
 
@@ -90,11 +90,13 @@ If you are having issues running the demo.py, then delete the .egg file in <stro
 It will be rebuilt when your run the applications.
 
 Run the application:
-<h6> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </h6> 
-py -3.6 DAML_RCNN_Mask.py
+<strong> *For pre-captured footage its the following below, this will create an output.mp4 with the masking and bounding box: </strong> 
 
-<h6>  *For real-time capture its the following below, bare in mind this is resource intensive: </h6> 
-py -3.6 DAML_RCNN_Mask_RealTime.py
+> py -3.6 DAML_RCNN_Mask.py
+
+<strong> *For real-time capture its the following below, bare in mind this is resource intensive: </strong> 
+
+> py -3.6 DAML_RCNN_Mask_RealTime.py
 
 If you have any other issues check the following link for other solutions:
 https://github.com/tensorflow/tensorflow/issues/36111
