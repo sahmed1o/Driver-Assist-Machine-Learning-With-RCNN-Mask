@@ -12,7 +12,7 @@
 
 <p align="center">
  
-![Output sample](https://github.com/shailahmed44/Driver-Assist-Machine-Learning-With-RCNN-Mask/blob/master/screenshots/footage.gif)
+<img src="https://github.com/shailahmed44/Driver-Assist-Machine-Learning-With-RCNN-Mask/blob/master/screenshots/footage.gif" width=1000>
 
 </p>
 
