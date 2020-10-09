@@ -114,16 +114,20 @@ def mask_frame(source, region_interest, masks, class_ids, cls_names, scores):
 # Pre-Captured Video Source:
 stream = cv2.VideoCapture("VideoSourceFile/Freewaytest.mp4")
 
+# get original video size 
+width  = stream.get(cv2.CAP_PROP_FRAME_WIDTH)  # float value, converted to integer in the next line when writing
+height = stream.get(cv2.CAP_PROP_FRAME_HEIGHT) # float value, converted to integer in the next line when writing
+
 # Create VideoWriter object
 # 0x7634706d  is the (*'MP4V') video writing formatting, with an output resolution of 960x540
-video_output = cv2.VideoWriter('OutputVideo/output.mp4', 0x7634706d, 20.0, (960,540))
+video_output = cv2.VideoWriter('OutputVideo/output.mp4', 0x7634706d, 60.0, (int(width),int(height)))
    
 # Start capturing footage frame by frame and apply mask
 while True:
     # read in the stream wether its live camera feed or a video footage
     is_streaming , frame = stream.read()
     if not is_streaming:
-        print("unable to read the stream, ending program")
+        print("Finished stream, ending program")
         break
     #Make a prediction with the model creating a dictionary with a set of key value pairs that list possible objects detected 
     get_frame_results = mrcnn_model.detect([frame], verbose=1)
