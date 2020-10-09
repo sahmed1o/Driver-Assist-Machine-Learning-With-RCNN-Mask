@@ -10,7 +10,7 @@
 
 
 <p align="center">
-<strong> In this case road obstacles ahead are being masked. </strong>
+<strong> In this case road obstacles ahead are being masked: </strong>
 <img src="https://github.com/shailahmed44/Driver-Assist-Machine-Learning-With-RCNN-Mask/blob/master/screenshots/footage.gif" width=800>
 </p>
 
