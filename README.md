@@ -10,6 +10,8 @@
 
 <strong> In this case road obstacles ahead are being masked. </strong>
 
+![Output sample](https://github.com/shailahmed44/Driver-Assist-Machine-Learning-With-RCNN-Mask/blob/master/screenshots/footage.gif)
+
 <hr>
 
 ## Installation and Setup:
