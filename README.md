@@ -11,7 +11,9 @@
 <strong> In this case road obstacles ahead are being masked. </strong>
 
 <p align="center">
+ 
 ![Output sample](https://github.com/shailahmed44/Driver-Assist-Machine-Learning-With-RCNN-Mask/blob/master/screenshots/footage.gif)
+
 </p>
 
 
