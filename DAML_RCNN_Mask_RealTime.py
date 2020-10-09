@@ -119,7 +119,7 @@ width  = stream.get(cv2.CAP_PROP_FRAME_WIDTH)  # float value, converted to integ
 height = stream.get(cv2.CAP_PROP_FRAME_HEIGHT) # float value, converted to integer in the next line when writing
 
 # Create VideoWriter object
-# 0x7634706d  is the (*'MP4V') video writing formatting, with an output resolution of 960x540
+# 0x7634706d  is the (*'MP4V') video writing formatting, with an output resolution of the original size.
 video_output = cv2.VideoWriter('OutputVideo/output.mp4', 0x7634706d, 60.0, (int(width),int(height)))
    
 # Start capturing footage frame by frame and apply mask
